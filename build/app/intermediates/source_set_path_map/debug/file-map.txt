@@ -1,0 +1,57 @@
+com.example.recipient.app-jetified-startup-runtime-1.1.1-0 C:\Users\Qompac PC\.gradle\caches\transforms-3\14779f0273fd86f43e1f02af1bcd1f85\transformed\jetified-startup-runtime-1.1.1\res
+com.example.recipient.app-jetified-play-services-auth-20.4.0-1 C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\res
+com.example.recipient.app-core-1.8.0-2 C:\Users\Qompac PC\.gradle\caches\transforms-3\205feb206244c8c1b4b56fcdc8d69988\transformed\core-1.8.0\res
+com.example.recipient.app-appcompat-1.5.1-3 C:\Users\Qompac PC\.gradle\caches\transforms-3\35247393b79a5fe3c4f500e2adf3d76f\transformed\appcompat-1.5.1\res
+com.example.recipient.app-jetified-appcompat-resources-1.5.1-4 C:\Users\Qompac PC\.gradle\caches\transforms-3\47ec644be228689653253ae24fb9c596\transformed\jetified-appcompat-resources-1.5.1\res
+com.example.recipient.app-jetified-exoplayer-core-2.18.1-5 C:\Users\Qompac PC\.gradle\caches\transforms-3\4b60496a6f923dbf5d22418b083de061\transformed\jetified-exoplayer-core-2.18.1\res
+com.example.recipient.app-jetified-media2-common-1.2.0-6 C:\Users\Qompac PC\.gradle\caches\transforms-3\5294284da6bd347dc600b9136db85eca\transformed\jetified-media2-common-1.2.0\res
+com.example.recipient.app-media-1.4.1-7 C:\Users\Qompac PC\.gradle\caches\transforms-3\6b01f3fcc50a7256f609f1cb85c9e759\transformed\media-1.4.1\res
+com.example.recipient.app-jetified-play-services-base-18.0.1-8 C:\Users\Qompac PC\.gradle\caches\transforms-3\76f70b298a2f561e8fb17b8d59eaf521\transformed\jetified-play-services-base-18.0.1\res
+com.example.recipient.app-browser-1.4.0-9 C:\Users\Qompac PC\.gradle\caches\transforms-3\7fb67ba752b2e811fd16c810464166f2\transformed\browser-1.4.0\res
+com.example.recipient.app-jetified-media2-session-1.2.0-10 C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\res
+com.example.recipient.app-jetified-play-services-basement-18.1.0-11 C:\Users\Qompac PC\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\res
+com.example.recipient.app-jetified-window-java-1.0.0-beta04-12 C:\Users\Qompac PC\.gradle\caches\transforms-3\9ad42915e1c709ad1b2136156a0964c6\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.recipient.app-lifecycle-livedata-core-2.5.1-13 C:\Users\Qompac PC\.gradle\caches\transforms-3\9b72d3a0628617d3f17d9cb77d3f51cf\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.recipient.app-jetified-window-1.0.0-beta04-14 C:\Users\Qompac PC\.gradle\caches\transforms-3\9cdde96e85f566ba8154d56fa5f2fbc1\transformed\jetified-window-1.0.0-beta04\res
+com.example.recipient.app-jetified-savedstate-1.2.0-15 C:\Users\Qompac PC\.gradle\caches\transforms-3\9d3ae9fbc8b4c31d332e4ee556f746a7\transformed\jetified-savedstate-1.2.0\res
+com.example.recipient.app-jetified-emoji2-1.2.0-16 C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\res
+com.example.recipient.app-fragment-1.3.6-17 C:\Users\Qompac PC\.gradle\caches\transforms-3\aabd96d17d3f8389713fa62fe78ebf8d\transformed\fragment-1.3.6\res
+com.example.recipient.app-jetified-lifecycle-process-2.4.1-18 C:\Users\Qompac PC\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\res
+com.example.recipient.app-jetified-annotation-experimental-1.1.0-19 C:\Users\Qompac PC\.gradle\caches\transforms-3\bb2247605b9b63558bd4596beaf9f22f\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.recipient.app-jetified-core-ktx-1.8.0-20 C:\Users\Qompac PC\.gradle\caches\transforms-3\c7b52e512e760758a581543ae730aa22\transformed\jetified-core-ktx-1.8.0\res
+com.example.recipient.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-21 C:\Users\Qompac PC\.gradle\caches\transforms-3\d0fc6f2e3351db4aa3a7b376dd964b4b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.recipient.app-jetified-firebase-common-20.2.0-22 C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\res
+com.example.recipient.app-lifecycle-runtime-2.5.1-23 C:\Users\Qompac PC\.gradle\caches\transforms-3\ecb295b800ded09051f724a4ba193524\transformed\lifecycle-runtime-2.5.1\res
+com.example.recipient.app-jetified-emoji2-views-helper-1.2.0-24 C:\Users\Qompac PC\.gradle\caches\transforms-3\ef66750d44341521985085f234b11a88\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.recipient.app-lifecycle-viewmodel-2.5.1-25 C:\Users\Qompac PC\.gradle\caches\transforms-3\f2489d9065f4dca5ca4b308de42fbf04\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.recipient.app-jetified-activity-1.5.1-26 C:\Users\Qompac PC\.gradle\caches\transforms-3\f3ee13db5cf5e80542e82c0f34f6d420\transformed\jetified-activity-1.5.1\res
+com.example.recipient.app-swiperefreshlayout-1.1.0-27 C:\Users\Qompac PC\.gradle\caches\transforms-3\f569fe34fcd730d6f94a55692e7cbc6c\transformed\swiperefreshlayout-1.1.0\res
+com.example.recipient.app-webkit-1.5.0-28 C:\Users\Qompac PC\.gradle\caches\transforms-3\fd8329af8d6fb6c5a09651978e387d6d\transformed\webkit-1.5.0\res
+com.example.recipient.app-debug-29 D:\Project\panchef-main\android\app\src\debug\res
+com.example.recipient.app-main-30 D:\Project\panchef-main\android\app\src\main\res
+com.example.recipient.app-pngs-31 D:\Project\panchef-main\build\app\generated\res\pngs\debug
+com.example.recipient.app-resValues-32 D:\Project\panchef-main\build\app\generated\res\resValues\debug
+com.example.recipient.app-rs-33 D:\Project\panchef-main\build\app\generated\res\rs\debug
+com.example.recipient.app-mergeDebugResources-34 D:\Project\panchef-main\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.recipient.app-mergeDebugResources-35 D:\Project\panchef-main\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.recipient.app-merged_res-36 D:\Project\panchef-main\build\app\intermediates\merged_res\debug
+com.example.recipient.app-packaged_res-37 D:\Project\panchef-main\build\audio_session\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-38 D:\Project\panchef-main\build\cloud_firestore\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-39 D:\Project\panchef-main\build\file_picker\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-40 D:\Project\panchef-main\build\firebase_auth\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-41 D:\Project\panchef-main\build\firebase_core\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-42 D:\Project\panchef-main\build\firebase_storage\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-43 D:\Project\panchef-main\build\flutter_inappwebview\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-44 D:\Project\panchef-main\build\flutter_keyboard_visibility\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-45 D:\Project\panchef-main\build\flutter_native_splash\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-46 D:\Project\panchef-main\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-47 D:\Project\panchef-main\build\fluttertoast\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-48 D:\Project\panchef-main\build\google_sign_in_android\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-49 D:\Project\panchef-main\build\image_picker_android\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-50 D:\Project\panchef-main\build\just_audio\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-51 D:\Project\panchef-main\build\path_provider_android\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-52 D:\Project\panchef-main\build\sqflite\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-53 D:\Project\panchef-main\build\url_launcher_android\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-54 D:\Project\panchef-main\build\video_player_android\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-55 D:\Project\panchef-main\build\wakelock\intermediates\packaged_res\debug
+com.example.recipient.app-packaged_res-56 D:\Project\panchef-main\build\webview_flutter_android\intermediates\packaged_res\debug

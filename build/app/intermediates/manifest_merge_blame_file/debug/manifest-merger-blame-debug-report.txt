@@ -1,0 +1,402 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.recipient"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Project\panchef-main\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->D:\Project\panchef-main\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\Project\panchef-main\android\app\src\main\AndroidManifest.xml:4:5-64
+16-->D:\Project\panchef-main\android\app\src\main\AndroidManifest.xml:4:22-62
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+17-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+18
+19    <queries>
+19-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:15
+20        <intent>
+20-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+21            <action android:name="android.intent.action.GET_CONTENT" />
+21-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+21-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+22
+23            <data android:mimeType="*/*" />
+23-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+23-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:19-41
+24        </intent>
+25        <intent>
+25-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+26            <action android:name="android.support.customtabs.action.CustomTabsService" />
+26-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+26-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+27        </intent>
+28        <intent>
+28-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:25:9-27:18
+29            <action android:name="android.media.browse.MediaBrowserService" />
+29-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:13-79
+29-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:21-76
+30        </intent>
+31        <intent>
+31-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:28:9-30:18
+32            <action android:name="androidx.media2.session.MediaSessionService" />
+32-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:13-82
+32-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:21-79
+33        </intent>
+34        <intent>
+34-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:31:9-33:18
+35            <action android:name="androidx.media2.session.MediaLibraryService" />
+35-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:13-82
+35-->[androidx.media2:media2-session:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\92a9caad83d336581bdaf6adcb5606c0\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:21-79
+36        </intent>
+37    </queries>
+38
+39    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+39-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+39-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+40
+41    <application
+42        android:name="android.app.Application"
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.8.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\205feb206244c8c1b4b56fcdc8d69988\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/launcher_icon"
+46        android:label="PanChef" >
+47        <activity
+48            android:name="com.example.recipient.MainActivity"
+49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50            android:exported="true"
+51            android:hardwareAccelerated="true"
+52            android:launchMode="singleTop"
+53            android:theme="@style/LaunchTheme"
+54            android:windowSoftInputMode="adjustResize" >
+55
+56            <!--
+57                 Specifies an Android theme to apply to this Activity as soon as
+58                 the Android process has started. This theme is visible to the user
+59                 while the Flutter UI initializes. After that, this theme continues
+60                 to determine the Window background behind the Flutter UI.
+61            -->
+62            <meta-data
+63                android:name="io.flutter.embedding.android.NormalTheme"
+64                android:resource="@style/NormalTheme" />
+65
+66            <intent-filter>
+67                <action android:name="android.intent.action.MAIN" />
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+70            </intent-filter>
+71        </activity>
+72        <!--
+73             Don't delete the meta-data below.
+74             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+75        -->
+76        <meta-data
+77            android:name="flutterEmbedding"
+78            android:value="2" />
+79
+80        <service
+80-->[:cloud_firestore] D:\Project\panchef-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+81            android:name="com.google.firebase.components.ComponentDiscoveryService"
+81-->[:cloud_firestore] D:\Project\panchef-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+82            android:directBootAware="true"
+82-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+83            android:exported="false" >
+83-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+84            <meta-data
+84-->[:cloud_firestore] D:\Project\panchef-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+85-->[:cloud_firestore] D:\Project\panchef-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:cloud_firestore] D:\Project\panchef-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+87            <meta-data
+87-->[:firebase_auth] D:\Project\panchef-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+88-->[:firebase_auth] D:\Project\panchef-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_auth] D:\Project\panchef-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+90            <meta-data
+90-->[:firebase_storage] D:\Project\panchef-main\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+91-->[:firebase_storage] D:\Project\panchef-main\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_storage] D:\Project\panchef-main\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+93            <meta-data
+93-->[:firebase_core] D:\Project\panchef-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+94-->[:firebase_core] D:\Project\panchef-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_core] D:\Project\panchef-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\63967fb3901811844efc5ce40c43aba1\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:19:13-21:85
+100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+100-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\63967fb3901811844efc5ce40c43aba1\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\63967fb3901811844efc5ce40c43aba1\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:21:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\1fc1f239fd44627d45f69e3983089416\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+103                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+103-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\1fc1f239fd44627d45f69e3983089416\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\1fc1f239fd44627d45f69e3983089416\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+105        </service>
+106
+107        <provider
+107-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+108            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+108-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+109            android:authorities="com.example.recipient.flutter.image_provider"
+109-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+110            android:exported="false"
+110-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+111            android:grantUriPermissions="true" >
+111-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+112            <meta-data
+112-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+114                android:resource="@xml/flutter_image_picker_file_paths" />
+114-->[:image_picker_android] D:\Project\panchef-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+115        </provider>
+116
+117        <activity
+117-->[:url_launcher_android] D:\Project\panchef-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+118            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+118-->[:url_launcher_android] D:\Project\panchef-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+119            android:exported="false"
+119-->[:url_launcher_android] D:\Project\panchef-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+120            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+120-->[:url_launcher_android] D:\Project\panchef-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+121        <activity
+121-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+122            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+122-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+123            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+123-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+124            android:exported="false"
+124-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+125            android:theme="@style/AppTheme" />
+125-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+126        <activity
+126-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+127            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+127-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+128            android:exported="false"
+128-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+129            android:theme="@style/ThemeTransparent" />
+129-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+130        <activity
+130-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+131            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+131-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+132            android:exported="false"
+132-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+133            android:theme="@style/ThemeTransparent" />
+133-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+134        <activity
+134-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+135            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+135-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+136            android:exported="false"
+136-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+137            android:launchMode="singleInstance"
+137-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+138            android:theme="@style/ThemeTransparent" />
+138-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+139        <activity
+139-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+140            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+140-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+141            android:exported="false"
+141-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+142            android:launchMode="singleInstance"
+142-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+143            android:theme="@style/ThemeTransparent" />
+143-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+144
+145        <receiver
+145-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+146            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+146-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+147            android:enabled="true"
+147-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+148            android:exported="false" />
+148-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+149
+150        <meta-data
+150-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+151            android:name="io.flutter.embedded_views_preview"
+151-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+152            android:value="true" />
+152-->[:flutter_inappwebview] D:\Project\panchef-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+153
+154        <uses-library
+154-->[androidx.window:window:1.0.0-beta04] C:\Users\Qompac PC\.gradle\caches\transforms-3\9cdde96e85f566ba8154d56fa5f2fbc1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+155            android:name="androidx.window.extensions"
+155-->[androidx.window:window:1.0.0-beta04] C:\Users\Qompac PC\.gradle\caches\transforms-3\9cdde96e85f566ba8154d56fa5f2fbc1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+156            android:required="false" />
+156-->[androidx.window:window:1.0.0-beta04] C:\Users\Qompac PC\.gradle\caches\transforms-3\9cdde96e85f566ba8154d56fa5f2fbc1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+157        <uses-library
+157-->[androidx.window:window:1.0.0-beta04] C:\Users\Qompac PC\.gradle\caches\transforms-3\9cdde96e85f566ba8154d56fa5f2fbc1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+158            android:name="androidx.window.sidecar"
+158-->[androidx.window:window:1.0.0-beta04] C:\Users\Qompac PC\.gradle\caches\transforms-3\9cdde96e85f566ba8154d56fa5f2fbc1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+159            android:required="false" />
+159-->[androidx.window:window:1.0.0-beta04] C:\Users\Qompac PC\.gradle\caches\transforms-3\9cdde96e85f566ba8154d56fa5f2fbc1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+160
+161        <activity
+161-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+162            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+162-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+163            android:excludeFromRecents="true"
+163-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+166        <!--
+167            Service handling Google Sign-In user revocation. For apps that do not integrate with
+168            Google Sign-In, this service will never be started.
+169        -->
+170        <service
+170-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+171            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+171-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+172            android:exported="true"
+172-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+173            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+173-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+174            android:visibleToInstantApps="true" />
+174-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\19c5f6bc08c988bc888c2f37c648865a\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+175
+176        <activity
+176-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+177            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+177-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+178            android:excludeFromRecents="true"
+178-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+179            android:exported="true"
+179-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+180            android:launchMode="singleTask"
+180-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+181-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+182            <intent-filter>
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+183                <action android:name="android.intent.action.VIEW" />
+183-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+183-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+185-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+186                <category android:name="android.intent.category.BROWSABLE" />
+186-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+186-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+187
+188                <data
+188-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+189                    android:host="firebase.auth"
+190                    android:path="/"
+191                    android:scheme="genericidp" />
+192            </intent-filter>
+193        </activity>
+194        <activity
+194-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+195            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+195-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+196            android:excludeFromRecents="true"
+196-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+197            android:exported="true"
+197-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+198            android:launchMode="singleTask"
+198-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+199            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+199-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+200            <intent-filter>
+200-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+201                <action android:name="android.intent.action.VIEW" />
+201-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+201-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+203-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+204                <category android:name="android.intent.category.BROWSABLE" />
+204-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+204-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\3d93d07f74130fe2fd26d0480564854d\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+205
+206                <data
+206-->[:file_picker] D:\Project\panchef-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+207                    android:host="firebase.auth"
+208                    android:path="/"
+209                    android:scheme="recaptcha" />
+210            </intent-filter>
+211        </activity>
+212        <activity
+212-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qompac PC\.gradle\caches\transforms-3\76f70b298a2f561e8fb17b8d59eaf521\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+213            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+213-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qompac PC\.gradle\caches\transforms-3\76f70b298a2f561e8fb17b8d59eaf521\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+214            android:exported="false"
+214-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qompac PC\.gradle\caches\transforms-3\76f70b298a2f561e8fb17b8d59eaf521\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+215-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qompac PC\.gradle\caches\transforms-3\76f70b298a2f561e8fb17b8d59eaf521\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+216
+217        <provider
+217-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+218            android:name="com.google.firebase.provider.FirebaseInitProvider"
+218-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+219            android:authorities="com.example.recipient.firebaseinitprovider"
+219-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+220            android:directBootAware="true"
+220-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+221            android:exported="false"
+221-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+222            android:initOrder="100" />
+222-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\dd8062c38abb009d89fb89f7e438c917\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+223
+224        <meta-data
+224-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+225            android:name="com.google.android.gms.version"
+225-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+226            android:value="@integer/google_play_services_version" />
+226-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+227
+228        <provider
+228-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+229            android:name="androidx.startup.InitializationProvider"
+229-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+230            android:authorities="com.example.recipient.androidx-startup"
+230-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+231            android:exported="false" >
+231-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+232            <meta-data
+232-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+233                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+233-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+234                android:value="androidx.startup" />
+234-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qompac PC\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+235            <meta-data
+235-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Qompac PC\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+236                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+236-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Qompac PC\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+237                android:value="androidx.startup" />
+237-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Qompac PC\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+238        </provider>
+239    </application>
+240
+241</manifest>

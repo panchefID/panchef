@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.recipient.app-mergeDebugResources-34:/values-night-v31/values-night-v31.xml",
+            "map": [
+                {
+                    "source": "D:\\Project\\panchef-main\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
+                    "from": {
+                        "startLines": "3,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,889",
+                        "endLines": "8,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "538,1053"
+                    },
+                    "to": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,425",
+                        "endLines": "7,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "420,589"
+                    }
+                }
+            ]
+        }
+    ]
+}
