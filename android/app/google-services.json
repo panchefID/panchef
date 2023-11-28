@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1032928233350",
+    "project_id": "panchef-c7c7b",
+    "storage_bucket": "panchef-c7c7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032928233350:android:c8f7b17aaed973685a8e07",
+        "android_client_info": {
+          "package_name": "com.example.recipient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032928233350-tgj2rf4snnh491v2r8h1nqf9dg4rv5fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recipient",
+            "certificate_hash": "700574f36119d2f81e882c77132f1d6f64e4dc0a"
+          }
+        },
+        {
+          "client_id": "1032928233350-fhe0m9o3qk3lnmcnakmsdc189tbga0nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPRraPOAboYfcx5BQl3XiTZgu-t0w7I00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032928233350-fhe0m9o3qk3lnmcnakmsdc189tbga0nh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1032928233350-1881o6lpelt1t848lobn7kr9k2m9juch.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.recipient"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
